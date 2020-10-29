@@ -2,43 +2,11 @@ body {
     background: #E6E6E6;
 }
 
-#circle-design {
-    background: #E6563B;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-}
-
-#design-icon {
-    background: #E6563B;
-    border-radius: 50%;
-    width: 18px;
-    height: 18px;
-}
-
-#circle-develop {
-    background: #DEA03D;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-}
-
-#circle-support {
-    background: #7CB06C;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-}
-
-#circle-host {
-    background: #00ABA9;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-}
-
-.text {
-    text-align: center;
+:root {
+    --red: #e6563b;
+    --green: #7cb06c;
+    --yellow: #EB9D3A;
+    --blue: #00aba9;
 }
 
 a {
@@ -63,3 +31,25 @@ a {
     font-family: "Anton Regular";
     font-weight: bold;
 }
+
+.circle {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid white;
+    border-radius: 50px;
+    color: white;
+    text-align: center;
+    margin: 1vw;
+}
+
+.circle h6 {
+    margin: 0;
+}
+
+.red {background-color: var(--red);}
+.blue {background-color: var(--blue);}
+.yellow {background-color: var(--yellow);}
+.green {background-color: var(--green);}
