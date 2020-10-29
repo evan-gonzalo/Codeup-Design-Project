@@ -1,24 +1,28 @@
 body {
     background: #E6E6E6;
 }
+
 #circle-design {
     background: #E6563B;
     border-radius: 50%;
     width: 100px;
     height: 100px;
 }
+
 #circle-develop {
     background: #DEA03D;
     border-radius: 50%;
     width: 100px;
     height: 100px;
 }
+
 #circle-support {
     background: #7CB06C;
     border-radius: 50%;
     width: 100px;
     height: 100px;
 }
+
 #circle-host {
     background: #00ABA9;
     border-radius: 50%;
@@ -42,4 +46,13 @@ a {
 
 #twitter {
     color: rgb(28, 141, 240);
+}
+
+*p {
+    font-family: "Abel Regular";
+}
+
+*h1, h2, h3, h4, h5 {
+    font-family: "Anton Regular";
+    font-weight: bold;
 }
