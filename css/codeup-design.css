@@ -9,6 +9,13 @@ body {
     height: 100px;
 }
 
+#design-icon {
+    background: #E6563B;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+}
+
 #circle-develop {
     background: #DEA03D;
     border-radius: 50%;
