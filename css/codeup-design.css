@@ -53,3 +53,18 @@ a {
 .blue {background-color: var(--blue);}
 .yellow {background-color: var(--yellow);}
 .green {background-color: var(--green);}
+
+.small-circles {
+    height: 18px;
+    width: 18px;
+    border-radius: 18px;
+    font-size: 8px;
+    line-height: 18px;
+    font-family: 'Anton', sans-serif;
+    margin-left: 1em;
+}
+
+.small-circles span {
+    position: relative;
+    top: 1px;
+}
