@@ -25,6 +25,21 @@ body {
     width: 100px;
     height: 100px;
 }
+
 .text {
     text-align: center;
+}
+
+a {
+    color: black;
+}
+
+@media screen and (min-width:768px) {
+    .card-img-top {
+        height: 20vw;
+    }
+}
+
+#twitter {
+    color: rgb(28, 141, 240);
 }
