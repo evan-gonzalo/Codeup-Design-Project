@@ -119,5 +119,9 @@ img {
 }
 
 #selected-work {
-    /*text-align: center;*/
+    padding: 0;
+}
+
+#the-last {
+    padding-left: 25px;
 }
