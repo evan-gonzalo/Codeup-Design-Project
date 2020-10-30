@@ -15,7 +15,7 @@ a {
 
 @media screen and (min-width:768px) {
    .box .card-img-top {
-        height: 20vw;
+       height: 20vw;
     }
 }
 
@@ -81,6 +81,12 @@ a {
 
 .card {
     border: none;
+    background-color: #f0f0f0;
+}
+
+#white-bar {
+    background-color: white;
+    height: 50px;
 }
 
 /*#phone {*/
@@ -107,6 +113,8 @@ img {
 
 #img-logo {
     border: none;
+    height: 105px;
+    width: 105px;
 }
 
 .card-horizontal {
@@ -124,4 +132,23 @@ img {
 
 #the-last {
     padding-left: 25px;
+}
+
+@media screen and (min-width:576px) {
+    .navbar {
+        margin-bottom: 7em;
+        padding: 0;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .navbar {
+        margin-bottom: 5em;
+        padding: 0;
+    }
+}
+
+.navbar {
+    margin-bottom: 8em;
+    padding: 0;
 }
