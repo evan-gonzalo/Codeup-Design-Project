@@ -1,5 +1,5 @@
 body {
-    background: #E6E6E6;
+    background: #f0f0f0;
 }
 
 :root {
@@ -14,7 +14,7 @@ a {
 }
 
 @media screen and (min-width:768px) {
-    .card-img-top {
+   .box .card-img-top {
         height: 20vw;
     }
 }
@@ -70,6 +70,46 @@ a {
 }
 
 #twitter-card {
-    background-color: #E6E6E6;
+    background-color: #f0f0f0;
     border: none;
+}
+
+.card-body {
+    border: none;
+    background-color: #f0f0f0;
+}
+
+.card {
+    border: none;
+}
+
+/*#phone {*/
+/*    width: 10vw;*/
+/*    height: 10vw;*/
+/*    object-fit: cover;*/
+/*}*/
+
+/*#head {*/
+/*    width: 10vw;*/
+/*    height: 10vh;*/
+/*    object-fit: cover;*/
+/*}*/
+
+/*#ipad {*/
+/*    width: 10vw;*/
+/*    height: 10vh;*/
+/*    object-fit: cover;*/
+/*}*/
+
+img {
+    border: 5px solid #E6E6E6;
+}
+
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+.card-text {
+    margin: auto;
+    text-align:center;
 }
