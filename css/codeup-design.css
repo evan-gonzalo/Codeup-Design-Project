@@ -105,6 +105,10 @@ img {
     border: 5px solid #E6E6E6;
 }
 
+#img-logo {
+    border: none;
+}
+
 .card-horizontal {
     display: flex;
     flex: 1 1 auto;
@@ -112,4 +116,8 @@ img {
 .card-text {
     margin: auto;
     text-align:center;
+}
+
+#selected-work {
+    /*text-align: center;*/
 }
