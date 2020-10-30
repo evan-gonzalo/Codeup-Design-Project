@@ -84,10 +84,10 @@ a {
     background-color: #f0f0f0;
 }
 
-#white-bar {
-    background-color: white;
-    height: 50px;
-}
+/*#white-bar {*/
+/*    background-color: white;*/
+/*    height: 50px;*/
+/*}*/
 
 /*#phone {*/
 /*    width: 10vw;*/
@@ -134,21 +134,59 @@ img {
     padding-left: 25px;
 }
 
-@media screen and (min-width:576px) {
-    .navbar {
-        margin-bottom: 7em;
-        padding: 0;
-    }
+/*@media screen and (min-width:576px) {*/
+/*    .navbar {*/
+/*        margin-bottom: 7em;*/
+/*        padding: 0;*/
+/*    }*/
+/*}*/
+
+/*@media screen and (min-width:768px) {*/
+/*    .navbar {*/
+/*        margin-bottom: 5em;*/
+/*        padding: 0;*/
+/*    }*/
+/*}*/
+
+/*.navbar {*/
+/*    margin-bottom: 8em;*/
+/*    padding: 0;*/
+/*}*/
+
+.wrapper {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
 }
 
-@media screen and (min-width:768px) {
-    .navbar {
-        margin-bottom: 5em;
-        padding: 0;
-    }
+.brand-name {font-size: 1.75em;}
+
+nav a {
+    font-size: .75em;
+    color: black;
 }
 
-.navbar {
-    margin-bottom: 8em;
+.nav-background {
+    position: absolute;
+    margin: 0;
     padding: 0;
+    height: 59px;
+    width: 100%;
+    top: 37px;
+    z-index: -1000;
+}
+
+nav .nav-item {
+    position: relative;
+    bottom: 6px;
+}
+
+@media screen and (min-width: 992px) {
+    .sub-title {text-align: left;}
+    hr {width: 100%;}
+
+    .brand-name  {
+        position: relative;
+        top: 5px;
+    }
 }
