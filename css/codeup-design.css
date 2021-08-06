@@ -141,6 +141,14 @@ nav .nav-item {
     bottom: 6px;
 }
 
+h1, h2, h4, h5{
+    font-family: Anton;
+}
+
+p{
+    font-family: Abel
+}
+
 @media screen and (min-width: 992px) {
     .sub-title {text-align: left;}
     hr {width: 100%;}
